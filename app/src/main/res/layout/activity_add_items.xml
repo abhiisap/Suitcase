@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    android:background="#7D3838"
+    tools:context=".Add_Items">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/items_img"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logosuitcase"
+        app:civ_border_width="1dp"
+        app:civ_border_color="@color/black"
+        >
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <EditText
+        android:id="@+id/item_name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter item name"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/item_price"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter item price"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/item_description"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter item description"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        />
+
+    <Button
+        android:id="@+id/add_items"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Click to add items"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+
+
+
+</LinearLayout>
